@@ -1,9 +1,12 @@
 import React from 'react';
+import Body from './Body/Body';
+import Header from './Header/Header';
 
 const home = () => {
     return (
         <div>
-            <h2>Bca News</h2>
+            <Header />
+            <Body />
         </div>
     );
 };
